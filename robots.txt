@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zthanhluan.github.io/lich-am-web/sitemap.xml
