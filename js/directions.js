@@ -1,0 +1,1 @@
+const deityDirections={"Giáp":["Đông Bắc","Đông Bắc"],"Ất":["Tây Bắc","Đông Bắc"],"Bính":["Tây Nam","Tây Nam"],"Đinh":["Nam","Tây Nam"],"Mậu":["Đông Nam","Bắc"],"Kỷ":["Đông Bắc","Bắc"],Canh:["Tây Bắc","Đông"],"Tân":["Tây Nam","Đông"],"Nhâm":["Nam","Nam"],"Quý":["Đông Nam","Nam"]};function dayDirections(n){const[a,c]=deityDirections[n];return{departure:a,joy:a,wealth:c}}
