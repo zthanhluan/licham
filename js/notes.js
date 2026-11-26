@@ -1,0 +1,1 @@
+function readNotes(e){const t=JSON.parse(e.getItem("lichAmNotes")||"{}");return t&&"object"==typeof t&&!Array.isArray(t)?t:{}}function saveNote(e,t,r){const o=readNotes(e);r.trim()?o[t]=Array.from(r).slice(0,200).join(""):delete o[t],e.setItem("lichAmNotes",JSON.stringify(o))}
