@@ -1,0 +1,1 @@
+const Liunian=(()=>{function n(n,r){if(!Number.isInteger(r)||r<1||r>12)throw new RangeError("Tháng tiết khí phải từ 1 đến 12.");return([8,5,2][(n-4)%12%3]-r+18)%9+1}return{annualCenter:function(n){return Feixing.annual(n).board[5]},monthlyCenter:n,monthlyBoard:function(r,e){return Feixing.fly(n(r,e))},monthNames:Lunar.branches.slice(2).concat(Lunar.branches.slice(0,2))}})();
