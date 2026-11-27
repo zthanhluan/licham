@@ -1,0 +1,1 @@
+const FIREBASE_CONFIG={apiKey:"AIzaSyD6CNuaH9ECFM8zrctFuzqAKr6tT0ztxWw",authDomain:"lich-am-viet-nam.firebaseapp.com",projectId:"lich-am-viet-nam",storageBucket:"lich-am-viet-nam.firebasestorage.app",messagingSenderId:"910970615864",appId:"1:910970615864:web:8f14483c16dde239588ecd"};
